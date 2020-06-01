@@ -1,0 +1,7 @@
+{
+    "mqtt_client_id": "test1",
+    "mqtt_port": "8883",
+    "mqtt_host": "localhost",
+    "verbosity": 1,
+    "config_file": "/Users/acs/project/myOwn/MQTT_CMD_TOOL/service.json"
+}

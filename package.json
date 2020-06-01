@@ -1,0 +1,24 @@
+{
+  "name": "changeconfigfileusingmqtt_cmd_args_fileread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tool.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyanshutripathi/changeConfigFileUsingMQTT_CMD_args_fileRead.git"
+  },
+  "author": "Divyanshu Tripathi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/divyanshutripathi/changeConfigFileUsingMQTT_CMD_args_fileRead/issues"
+  },
+  "homepage": "https://github.com/divyanshutripathi/changeConfigFileUsingMQTT_CMD_args_fileRead#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mqtt": "^4.1.0",
+    "ramda": "^0.27.0"
+  }
+}
