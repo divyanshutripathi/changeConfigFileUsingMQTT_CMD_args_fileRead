@@ -152,12 +152,11 @@ function MqttConf(updatedFile) {
       qos: 1,
     };
     client.publish("/module/config", JSON.stringify(updatedFile), options);
-    client.end();
-    process.exit();
   });
   setTimeout(() => {
     client.end();
-  }, 4000);
+    process.exit();
+  }, 5000);
 }
 
 // calling of the execution function

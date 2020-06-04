@@ -9,7 +9,7 @@ client.on("connect", function () {
     retain: true,
     qos: 1,
   };
-  client.publish("module/config/param/mqtt_port", "1883", options);
+  client.publish("module/config/param/mqtt_host", "hivemq", options);
   //   client.end();
 });
 
